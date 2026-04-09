@@ -36,5 +36,5 @@ db.on('disconnected', () => {
 //6th step me db object ko export karna hai taki server.js me use kar sake
 
 
-// cooment added by chatgpt
+// comment added by chatgpt samje for 3rd time for learning git hubbb
 module.exports = db;
