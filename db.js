@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 
 // define the mongodb connection URL
-//2nd me database ka naam dena hai jisme data store karna hai , yaha maine hotels naam ka database banaya hai
+//2nd me database ka naam dena hai jisme data store karna hai , yaha maine hotels naam ka database banaya hai 
 const mongoURL = 'mongodb://localhost:27017/hotels';
 
 
@@ -34,4 +34,7 @@ db.on('disconnected', () => {
 
 
 //6th step me db object ko export karna hai taki server.js me use kar sake
+
+
+// cooment added by chatgpt
 module.exports = db;
